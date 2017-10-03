@@ -1,9 +1,8 @@
 function forLoop(array) {
-  var finalArray = [];
   for (let i = 0; i < 25; i++) {
-    finalArray.push(`"I am ${i} strange loop${i === 0 ? '' : 's'}."`)
+    array.push(`"I am ${i} strange loop${i === 0 ? '' : 's'}."`)
   }
-  return finalArray;
+  return array;
 }
 
 function whileLoop(n) {
